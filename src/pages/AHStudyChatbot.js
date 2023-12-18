@@ -47,13 +47,13 @@ class AHStudyChatbot extends Component {
                                 <p className="contentText1">Giúp hỗ trợ học sinh trong quá trình học tập. Với khả năng tự động tạo ra câu trả lời từ các câu hỏi của người dùng chatbot giúp cho việc học tập trở nên dễ dàng và tiện lợi hơn bao giờ hết.</p>
                             </div>
                             <div className="image1">
-                                <img src={require('../assets/images/ahstudyaichatbothome.png')} style={{maxWidth: '300px', maxHeight: '100%'}} alt="" />
+                                <img src={require('../assets/images/ahstudychatbot/home.png')} style={{maxWidth: '300px', maxHeight: '100%'}} alt="" />
                             </div>
                         </div>
 
                         <div className="contentPart2">
                             <div className="image2">
-                                <img src={require('../assets/images/chat.png')} style={{maxWidth: '300px', maxHeight: '100%'}} alt="" />
+                                <img src={require('../assets/images/ahstudychatbot/chatscreen.png')} style={{maxWidth: '300px', maxHeight: '100%'}} alt="" />
                             </div>
                             <div className="content2">
                                 <h2 className="contentTitle">Trải Nghiệm Học Tập Thú Vị</h2>
@@ -80,13 +80,13 @@ class AHStudyChatbot extends Component {
                             <div className="iOSPart">
                                 <a href="/iosdownload" type="button" className="btn btn-outline-info btn-light">
                                     <img src={require('../assets/images/ios.png')} width="50px" height="50px" alt="" />
-                                    Tải về iOS <br />(Comming Soon)
+                                    Tải về iOS<br />(Comming Soon)
                                 </a>
                             </div>
                             <div className="AndroidPart">
                                 <a href="/apkdownload" type="button" className="btn btn-outline-info btn-light">
                                     <img src={require('../assets/images/apk.png')} width="50px" height="50px" alt="" />
-                                    Tải về APK
+                                    Tải về Android<br />(Comming Soon)
                                 </a>
                             </div>
                         </div>

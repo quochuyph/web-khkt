@@ -47,27 +47,27 @@ class AHStudy extends Component {
                                 <p className="contentText1">AH Study giúp học sinh cải thiện thời gian học trên lớp bằng cách tổng hợp kiến thức của 4 môn Toán, Lý, Hoá, Anh dễ dàng tìm kiếm kiến thức trong quá trình học tập và cải thiện trải nghiệm học tập của mình.</p>
                             </div>
                             <div className="image1">
-                                <img src={require('../assets/images/ahstudyhome.png')} style={{maxWidth: '300px', maxHeight: '100%'}} alt="" />
+                                <img src={require('../assets/images/ahstudy/home.png')} style={{maxWidth: '300px', maxHeight: '100%'}} alt="" />
                             </div>
                         </div>
 
                         <div className="contentPart2">
                             <div className="image2">
-                                <img src={require('../assets/images/tkb.png')} style={{maxWidth: '300px', maxHeight: '100%'}} alt="" />
+                                <img src={require('../assets/images/ahstudy/tkb.png')} style={{maxWidth: '300px', maxHeight: '100%'}} alt="" />
                             </div>
                             <div className="content2">
-                                <h2 className="contentTitle">Tạo Thời Khóa Biểu</h2>
+                                <h2 className="contentTitle">Thời Khóa Biểu</h2>
                                 <p className="contentText">Giúp tạo thời khóa biểu dành cho các bạn học sinh lên lịch và theo dõi thời gian học tập một cách nhanh chóng. Tạo thời khóa biểu nhanh chóng, chi tiết theo từng ngày trong tuần. Giao diện thời khoá biểu đơn giản dễ sử dụng. Dễ dàng quản lý tất cả các thời gian học tập trong tuần.</p>
                             </div>
                         </div>
 
                         <div className="contentPart1">
                             <div className="content1">
-                                <h2 className="contentTitle1">Lịch Kiểm Tra</h2>
-                                <p className="contentText1">Giúp bạn lên lịch kiểm tra và đặt thông báo nhắc nhở để chuẩn bị cho các bài kiểm tra và những kiến thức cần nắm cho bài kiểm tra có thể đạt điểm như mong muốn.</p>
+                                <h2 className="contentTitle1">Đa dạng kiến thức</h2>
+                                <p className="contentText1">Giúp việc học của bạn trở nên dễ dàng hơn bao giờ hết. Tìm kiếm công thức giờ đây chỉ gói gọn trong 1 ứng dụng không cần phải tìm kiếm nhiều nơi.</p>
                             </div>
                             <div className="image1">
-                                <img src={require('../assets/images/app.png')} style={{maxWidth: '300px', maxHeight: '100%'}} alt="" />
+                                <img src={require('../assets/images/ahstudy/chemistry.png')} style={{maxWidth: '300px', maxHeight: '100%'}} alt="" />
                             </div>
                         </div>
                     </div>
@@ -82,13 +82,13 @@ class AHStudy extends Component {
                             <div className="iOSPart">
                                 <a href="/iosdownload" type="button" className="btn btn-outline-info btn-light">
                                     <img src={require('../assets/images/ios.png')} width="50px" height="50px" alt="" />
-                                    Tải về iOS <br />(Comming Soon)
+                                    Tải về iOS<br />(Comming Soon)
                                 </a>
                             </div>
                             <div className="AndroidPart">
                                 <a href="/apkdownload" type="button" className="btn btn-outline-info btn-light">
                                     <img src={require('../assets/images/apk.png')} width="50px" height="50px" alt="" />
-                                    Tải về APK
+                                    Tải về Android<br />(Comming Soon)
                                 </a>
                             </div>
                         </div>

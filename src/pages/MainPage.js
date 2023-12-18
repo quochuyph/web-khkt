@@ -37,13 +37,14 @@ class MainPage extends Component {
                 {/* PHẦN Body */}
                 <div className="body">
                     {/* Introduce */}
+                    <h4 className='introduceText'>Nhấn vào bên dưới để xem thêm</h4>
                     <div className='introduce' id='introduce'>
-                        <div className='ahstudy'>
+                        <div className='ahstudy bounce'>
                             <a href='/ahstudy'>
                                 <img src={require('../assets/images/ahstudy.png')} style={{maxWidth: '300px'}} />
                             </a>
                         </div>
-                        <div className='ahstudychatbot'>
+                        <div className='ahstudychatbot bounce'>
                             <a href='/ahstudychatbot'>
                                 <img src={require('../assets/images/ahstudychatbot.png')} style={{maxWidth: '300px'}} />
                             </a>

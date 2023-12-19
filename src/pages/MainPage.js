@@ -37,17 +37,61 @@ class MainPage extends Component {
                 {/* PHẦN Body */}
                 <div className="body">
                     {/* Introduce */}
-                    <h4 className='introduceText'>Nhấn vào bên dưới để xem thêm</h4>
                     <div className='introduce' id='introduce'>
-                        <div className='ahstudy bounce'>
-                            <a href='/ahstudy'>
-                                <img src={require('../assets/images/ahstudy.png')} style={{maxWidth: '300px'}} />
-                            </a>
+                        <div className='ahstudy'>
+                            <div className="downloadChoice row">
+                                <div className="iOSPart">
+                                    <a href="/iosdownload" type="button" className="btn btn-outline-info btn-light">
+                                        <img src={require('../assets/images/ios.png')} width="50px" height="50px" alt="" />
+                                        Tải AH Study cho iOS<br />(Comming Soon)
+                                    </a>
+                                </div>
+                                <div className="AndroidPart">
+                                    <a href="/apkdownload" type="button" className="btn btn-outline-info btn-light">
+                                        <img src={require('../assets/images/apk.png')} width="50px" height="50px" alt="" />
+                                        Tải AH Study cho Android<br />(Comming Soon)
+                                    </a>
+                                </div>
+                            </div>
+                            <div className='ahstudyImg'>
+                                <div className='bounce'>
+                                    <a href='/ahstudy'>
+                                        <img src={require('../assets/images/ahstudy.png')} style={{ maxWidth: '300px' }} />
+                                    </a>
+                                </div>
+                                <div className='clickHere'>
+                                    <i class="fa-solid fa-arrow-up fa-lg"></i>
+                                    <p className='clickHereText'>Bấm vào đây để xem thêm</p>
+                                </div>
+                            </div>
                         </div>
-                        <div className='ahstudychatbot bounce'>
-                            <a href='/ahstudychatbot'>
-                                <img src={require('../assets/images/ahstudychatbot.png')} style={{maxWidth: '300px'}} />
-                            </a>
+
+                        <div className='ahstudychatbot'>
+                            <div className='ahstudychatbotImg'>
+                                <div className='clickHere1'>
+                                    <p className='clickHereText'>Bấm vào đây để xem thêm</p>
+                                    <i class="fa-solid fa-arrow-down fa-lg"></i>
+                                </div>
+                                <div className='bounce'>
+                                    <a href='/ahstudychatbot'>
+                                        <img src={require('../assets/images/ahstudychatbot.png')} style={{ maxWidth: '300px' }} />
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="downloadChoice row">
+                                <div className="iOSPart">
+                                    <a href="/iosdownload" type="button" className="btn btn-outline-info btn-light">
+                                        <img src={require('../assets/images/ios.png')} width="50px" height="50px" alt="" />
+                                        Tải AH Study Chatbot cho iOS<br />(Comming Soon)
+                                    </a>
+                                </div>
+                                <div className="AndroidPart">
+                                    <a href="/apkdownload" type="button" className="btn btn-outline-info btn-light">
+                                        <img src={require('../assets/images/apk.png')} width="50px" height="50px" alt="" />
+                                        Tải AH Study Chatbot cho Android<br />(Comming Soon)
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -68,10 +112,13 @@ class MainPage extends Component {
                                     </div>
                                     {/* <!-- Footer Social Area--> */}
                                     <div className="footer_social_area">
+                                        <a href="https://www.facebook.com/phattriennanglucso" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook" target='_blank'>
+                                            <i class="fa-brands fa-facebook"></i>
+                                        </a>
                                         <a href="https://www.youtube.com/@phattriennanglucso" data-toggle="tooltip" data-placement="top" title="" data-original-title="Youtube" target='_blank'>
                                             <i className="fa-brands fa-youtube"></i>
                                         </a>
-                                        <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Tiktok" target='_blank'>
+                                        <a href="https://www.tiktok.com/@phattriennanglucso" data-toggle="tooltip" data-placement="top" title="" data-original-title="Tiktok" target='_blank'>
                                             <i className="fa-brands fa-tiktok"></i>
                                         </a>
                                     </div>

@@ -4,17 +4,80 @@
 
 .bounce {
   animation: bounce 3s ease infinite;
+  justify-content: center;
+  display: flex;
 }
+
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
 	40% {transform: translateY(-30px);}
 	60% {transform: translateY(-15px);}
 }
 
-.introduceText {
+.iOSPart {
+  max-width: 200px;
+}
+
+.AndroidPart {
+  max-width: 200px;
+}
+
+.downloadChoice {
+  margin-bottom: 30px;
+}
+
+.ahstudy {
+  display: flex;
+  padding: 15px;
+  margin-top: 5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ahstudychatbot {
+  display: flex;
+  padding: 15px;
+  margin-top: 5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ahstudyImg {
+  float: left;
+  padding: 15px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.ahstudychatbotImg {
+  float: right;
+  padding: 15px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.clickHere {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clickHere1 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.clickHereText {
+  font-size: 25px;
+  font-weight: 700;
+  color:#007bff;
   text-align: center;
-  color: #3a9bdc;
-  font-weight: bolder;
 }
 
 .introduceAhstudy {
@@ -33,10 +96,6 @@
   justify-content: center;
   align-items: center;
   padding: 15px
-}
-
-header {
-  padding-bottom: 50px;
 }
 
 nav {
@@ -115,10 +174,11 @@ nav {
 }
 
 .downloadChoice {
-  gap: 2rem;
+  gap: 1rem;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding: 15px;
 }
 
 .footerPart {

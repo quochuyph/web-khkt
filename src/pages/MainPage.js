@@ -41,9 +41,9 @@ class MainPage extends Component {
                         <div className='ahstudy'>
                             <div className="downloadChoice row">
                                 <div className="iOSPart">
-                                    <a href="/iosdownload" type="button" className="btn btn-outline-info btn-light">
+                                    <a href="https://apps.apple.com/vn/app/ah-study/id6474718633" type="button" className="btn btn-outline-info btn-light" target={'_blank'}>
                                         <img src={require('../assets/images/ios.png')} width="50px" height="50px" alt="" />
-                                        Tải AH Study cho iOS<br />(Comming Soon)
+                                        Tải AH Study cho iOS
                                     </a>
                                 </div>
                                 <div className="AndroidPart">
@@ -108,7 +108,7 @@ class MainPage extends Component {
                                     <p>Phát Triển Năng Lực Số</p>
                                     {/* <!-- Copywrite Text--> */}
                                     <div className="copywrite-text mb-5">
-                                        <p className="mb-0">Made with <i class="fa-solid fa-heart"></i> by<a className="ml-1" href="https://www.facebook.com/quoc.huy.tran.2007/" target='_blank'>Quoc Huy</a></p>
+                                        <p className="mb-0">Coded by<a className="ml-1" href="https://www.facebook.com/quoc.huy.tran.2007/" target='_blank'>Quoc Huy</a></p>
                                     </div>
                                     {/* <!-- Footer Social Area--> */}
                                     <div className="footer_social_area">

@@ -47,13 +47,13 @@ class AHStudy extends Component {
                                 <p className="contentText1">AH Study giúp học sinh cải thiện thời gian học trên lớp bằng cách tổng hợp kiến thức của 4 môn Toán, Lý, Hoá, Anh dễ dàng tìm kiếm kiến thức trong quá trình học tập và cải thiện trải nghiệm học tập của mình.</p>
                             </div>
                             <div className="image1">
-                                <img src={require('../assets/images/ahstudy/home.png')} style={{maxWidth: '300px', maxHeight: '100%'}} alt="" />
+                                <img src={require('../assets/images/ahstudy/home.png')} style={{ maxWidth: '300px', maxHeight: '100%' }} alt="" />
                             </div>
                         </div>
 
                         <div className="contentPart2">
                             <div className="image2">
-                                <img src={require('../assets/images/ahstudy/tkb.png')} style={{maxWidth: '300px', maxHeight: '100%'}} alt="" />
+                                <img src={require('../assets/images/ahstudy/tkb.png')} style={{ maxWidth: '300px', maxHeight: '100%' }} alt="" />
                             </div>
                             <div className="content2">
                                 <h2 className="contentTitle">Thời Khóa Biểu</h2>
@@ -67,7 +67,7 @@ class AHStudy extends Component {
                                 <p className="contentText1">Giúp việc học của bạn trở nên dễ dàng hơn bao giờ hết. Tìm kiếm công thức giờ đây chỉ gói gọn trong 1 ứng dụng không cần phải tìm kiếm nhiều nơi.</p>
                             </div>
                             <div className="image1">
-                                <img src={require('../assets/images/ahstudy/chemistry.png')} style={{maxWidth: '300px', maxHeight: '100%'}} alt="" />
+                                <img src={require('../assets/images/ahstudy/chemistry.png')} style={{ maxWidth: '300px', maxHeight: '100%' }} alt="" />
                             </div>
                         </div>
                     </div>
@@ -111,6 +111,9 @@ class AHStudy extends Component {
                                     </div>
                                     {/* <!-- Footer Social Area--> */}
                                     <div className="footer_social_area">
+                                        <a href="https://www.facebook.com/phattriennanglucso" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook" target='_blank'>
+                                            <i class="fa-brands fa-facebook"></i>
+                                        </a>
                                         <a href="https://www.youtube.com/@phattriennanglucso" data-toggle="tooltip" data-placement="top" title="" data-original-title="Youtube" target='_blank'>
                                             <i className="fa-brands fa-youtube"></i>
                                         </a>

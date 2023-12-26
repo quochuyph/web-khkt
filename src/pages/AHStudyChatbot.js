@@ -47,13 +47,13 @@ class AHStudyChatbot extends Component {
                                 <p className="contentText1">Giúp hỗ trợ học sinh trong quá trình học tập. Với khả năng tự động tạo ra câu trả lời từ các câu hỏi của người dùng chatbot giúp cho việc học tập trở nên dễ dàng và tiện lợi hơn bao giờ hết.</p>
                             </div>
                             <div className="image1">
-                                <img src={require('../assets/images/ahstudychatbot/home.png')} style={{maxWidth: '300px', maxHeight: '100%'}} alt="" />
+                                <img src={require('../assets/images/ahstudychatbot/home.png')} style={{ maxWidth: '300px', maxHeight: '100%' }} alt="" />
                             </div>
                         </div>
 
                         <div className="contentPart2">
                             <div className="image2">
-                                <img src={require('../assets/images/ahstudychatbot/chatscreen.png')} style={{maxWidth: '300px', maxHeight: '100%'}} alt="" />
+                                <img src={require('../assets/images/ahstudychatbot/chatscreen.png')} style={{ maxWidth: '300px', maxHeight: '100%' }} alt="" />
                             </div>
                             <div className="content2">
                                 <h2 className="contentTitle">Trải Nghiệm Học Tập Thú Vị</h2>
@@ -61,7 +61,7 @@ class AHStudyChatbot extends Component {
                             </div>
                         </div>
                     </div>
-                    
+
                     {/* Try AI Chat */}
                     <div className="tryAiChat">
                         <a href='/aichatbot' type="button" className='btn btn-outline-info btn-light'>
@@ -109,6 +109,9 @@ class AHStudyChatbot extends Component {
                                     </div>
                                     {/* <!-- Footer Social Area--> */}
                                     <div className="footer_social_area">
+                                        <a href="https://www.facebook.com/phattriennanglucso" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook" target='_blank'>
+                                            <i class="fa-brands fa-facebook"></i>
+                                        </a>
                                         <a href="https://www.youtube.com/@phattriennanglucso" data-toggle="tooltip" data-placement="top" title="" data-original-title="Youtube" target='_blank'>
                                             <i className="fa-brands fa-youtube"></i>
                                         </a>

@@ -7,6 +7,8 @@ import AHStudy from './pages/AHStudy';
 import AHStudyChatbot from './pages/AHStudyChatbot';  
 import AIChatBot from './pages/AIChatBot';
 
+import CommingSoon from './CommingSoon';
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -32,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: "/aichatbot",
     element: <AIChatBot />,
+  },
+  {
+    path: "/commingsoon",
+    element: <CommingSoon />,
   },
 ]);
 

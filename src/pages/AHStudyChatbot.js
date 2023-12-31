@@ -78,15 +78,13 @@ class AHStudyChatbot extends Component {
 
                         <div className="downloadChoice row">
                             <div className="iOSPart">
-                                <a href="/iosdownload" type="button" className="btn btn-outline-info btn-light">
-                                    <img src={require('../assets/images/ios.png')} width="50px" height="50px" alt="" />
-                                    Tải về iOS<br />(Comming Soon)
+                                <a href="/commingsoon" type="button" target={'_blank'}>
+                                    <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/vi-vn?size=250x83&amp;releaseDate=1703462400" alt="Download on the App Store" style={{ borderRadius: '13px', width: '195px', height: '83px' }} />
                                 </a>
                             </div>
                             <div className="AndroidPart">
-                                <a href="/apkdownload" type="button" className="btn btn-outline-info btn-light">
-                                    <img src={require('../assets/images/apk.png')} width="50px" height="50px" alt="" />
-                                    Tải về Android<br />(Comming Soon)
+                                <a href='https://play.google.com/store/apps/details?id=com.quochuyph207.aichatbotahstudy&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target={'_blank'}>
+                                    <img alt='Tải nội dung trên Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/vi_badge_web_generic.png' style={{ borderRadius: '13px', width: '200px', height: '83px' }} />
                                 </a>
                             </div>
                         </div>
@@ -115,7 +113,7 @@ class AHStudyChatbot extends Component {
                                         <a href="https://www.youtube.com/@phattriennanglucso" data-toggle="tooltip" data-placement="top" title="" data-original-title="Youtube" target='_blank'>
                                             <i className="fa-brands fa-youtube"></i>
                                         </a>
-                                        <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Tiktok" target='_blank'>
+                                        <a href="https://www.tiktok.com/@phattriennanglucso" data-toggle="tooltip" data-placement="top" title="" data-original-title="Tiktok" target='_blank'>
                                             <i className="fa-brands fa-tiktok"></i>
                                         </a>
                                     </div>

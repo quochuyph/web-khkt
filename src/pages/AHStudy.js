@@ -80,12 +80,12 @@ class AHStudy extends Component {
 
                         <div className="downloadChoice row">
                             <div className="iOSPart">
-                                <a href="https://apps.apple.com/vn/app/ah-study/id6474718633" type="button" target={'_blank'}>
+                                <a href="https://apps.apple.com/vn/app/ah-study/id6474718633" type="button" target={'_blank'} rel="noreferrer">
                                     <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/vi-vn?size=250x83&amp;releaseDate=1703462400" alt="Download on the App Store" style={{ borderRadius: '13px', width: '195px', height: '83px' }} />
                                 </a>
                             </div>
                             <div className="AndroidPart">
-                                <a href='https://play.google.com/store/apps/details?id=com.quochuyph207.AppKhoaHocKyThuat&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target={'_blank'}>
+                                <a href='https://play.google.com/store/apps/details?id=com.quochuyph207.AppKhoaHocKyThuat&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target={'_blank'} rel="noreferrer">
                                     <img alt='Tải nội dung trên Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/vi_badge_web_generic.png' style={{ borderRadius: '13px', width: '200px', height: '83px' }} />
                                 </a>
                             </div>
@@ -105,17 +105,17 @@ class AHStudy extends Component {
                                     <p>Phát Triển Năng Lực Số</p>
                                     {/* <!-- Copywrite Text--> */}
                                     <div className="copywrite-text mb-5">
-                                        <p className="mb-0">Coded by<a className="ml-1" href="https://trhuy207.github.io/Bio-Page/" target='_blank'>Quoc Huy</a></p>
+                                        <p className="mb-0">Coded by<a className="ml-1" href="https://trhuy207.github.io/Bio-Page/" target={'_blank'} rel="noreferrer">Quoc Huy</a></p>
                                     </div>
                                     {/* <!-- Footer Social Area--> */}
                                     <div className="footer_social_area">
-                                        <a href="https://www.facebook.com/phattriennanglucso" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook" target='_blank'>
+                                        <a href="https://www.facebook.com/phattriennanglucso" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook" target={'_blank'} rel="noreferrer">
                                             <i class="fa-brands fa-facebook"></i>
                                         </a>
-                                        <a href="https://www.youtube.com/@phattriennanglucso" data-toggle="tooltip" data-placement="top" title="" data-original-title="Youtube" target='_blank'>
+                                        <a href="https://www.youtube.com/@phattriennanglucso" data-toggle="tooltip" data-placement="top" title="" data-original-title="Youtube" target={'_blank'} rel="noreferrer">
                                             <i className="fa-brands fa-youtube"></i>
                                         </a>
-                                        <a href="https://www.tiktok.com/@phattriennanglucso" data-toggle="tooltip" data-placement="top" title="" data-original-title="Tiktok" target='_blank'>
+                                        <a href="https://www.tiktok.com/@phattriennanglucso" data-toggle="tooltip" data-placement="top" title="" data-original-title="Tiktok" target={'_blank'} rel="noreferrer">
                                             <i className="fa-brands fa-tiktok"></i>
                                         </a>
                                     </div>

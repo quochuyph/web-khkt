@@ -70,6 +70,16 @@ class AHStudy extends Component {
                                 <img src={require('../assets/images/ahstudy/chemistry.png')} style={{ maxWidth: '300px', maxHeight: '100%' }} alt="" />
                             </div>
                         </div>
+
+                        <div className="contentPart2">
+                            <div className="image2">
+                                <img src={require('../assets/images/ahstudy/translate.png')} style={{ maxWidth: '300px', maxHeight: '100%' }} alt="" />
+                            </div>
+                            <div className="content2">
+                                <h2 className="contentTitle">Dịch Thuật</h2>
+                                <p className="contentText">Các bạn học sinh có thể dùng cho việc dịch câu, hoặc từ theo ý muốn, cực kì nhanh chóng và chính xác.</p>
+                            </div>
+                        </div>
                     </div>
 
                     {/* Download Part */}

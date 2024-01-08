@@ -53,7 +53,7 @@ class AHStudyChatbot extends Component {
 
                         <div className="contentPart2">
                             <div className="image2">
-                                <img src={require('../assets/images/ahstudychatbot/chatscreen.png')} style={{ maxWidth: '300px', maxHeight: '100%' }} alt="" />
+                                <img src={require('../assets/images/ahstudychatbot/chat.png')} style={{ maxWidth: '300px', maxHeight: '100%' }} alt="" />
                             </div>
                             <div className="content2">
                                 <h2 className="contentTitle">Trải Nghiệm Học Tập Thú Vị</h2>

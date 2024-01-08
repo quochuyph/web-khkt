@@ -85,7 +85,7 @@ class AHStudy extends Component {
                                 </a>
                             </div>
                             <div className="AndroidPart">
-                                <a href='https://play.google.com/store/apps/details?id=com.quochuyph207.AppKhoaHocKyThuat&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target={'_blank'} rel="noreferrer">
+                                <a href='https://play.google.com/store/apps/details?id=com.quochuyph207.AppKhoaHocKyThuat' target={'_blank'} rel="noreferrer">
                                     <img alt='Tải nội dung trên Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/vi_badge_web_generic.png' style={{ borderRadius: '13px', width: '200px', height: '83px' }} />
                                 </a>
                             </div>

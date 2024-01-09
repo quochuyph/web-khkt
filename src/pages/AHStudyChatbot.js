@@ -39,6 +39,26 @@ class AHStudyChatbot extends Component {
 
                 {/* PHẦN Body */}
                 <div classNameName="body">
+                    {/* Download Part */}
+                    <div className="downloadPart text-center" id="download">
+                        <div className="text-center text-lg-start">
+                            <h2>Tải App AH Study Chatbot Ngay</h2>
+                        </div>
+
+                        <div className="downloadChoice row">
+                            <div className="iOSPart">
+                                <a href="https://apps.apple.com/vn/app/ah-study-chatbot/id6474620949" type="button" target={'_blank'} rel="noreferrer">
+                                    <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/vi-vn?size=250x83&amp;releaseDate=1703462400" alt="Download on the App Store" style={{ borderRadius: '13px', width: '195px', height: '83px' }} />
+                                </a>
+                            </div>
+                            <div className="AndroidPart">
+                                <a href='https://play.google.com/store/apps/details?id=com.quochuyph207.aichatbotahstudy' target={'_blank'} rel="noreferrer">
+                                    <img alt='Tải nội dung trên Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/vi_badge_web_generic.png' style={{ borderRadius: '13px', width: '200px', height: '83px' }} />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr></hr>
                     {/* Introduce */}
                     <div className="introduceAhstudy">
                         <div className="contentPart1" id="introduce">
@@ -61,33 +81,13 @@ class AHStudyChatbot extends Component {
                             </div>
                         </div>
                     </div>
-
+                    <hr></hr>
                     {/* Try AI Chat */}
                     <div className="tryAiChat">
                         <a href='/aichatbot' type="button" className='btn btn-outline-info btn-light'>
                             <i className="fa-solid fa-robot fa-bounce"></i>
                             <p>Thử AI Chatbot Ngay</p>
                         </a>
-                    </div>
-
-                    {/* Download Part */}
-                    <div className="downloadPart text-center" id="download">
-                        <div className="text-center text-lg-start">
-                            <h2>Tải App Ngay</h2>
-                        </div>
-
-                        <div className="downloadChoice row">
-                            <div className="iOSPart">
-                                <a href="https://apps.apple.com/vn/app/ah-study-chatbot/id6474620949" type="button" target={'_blank'} rel="noreferrer">
-                                    <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/vi-vn?size=250x83&amp;releaseDate=1703462400" alt="Download on the App Store" style={{ borderRadius: '13px', width: '195px', height: '83px' }} />
-                                </a>
-                            </div>
-                            <div className="AndroidPart">
-                                <a href='https://play.google.com/store/apps/details?id=com.quochuyph207.aichatbotahstudy' target={'_blank'} rel="noreferrer">
-                                    <img alt='Tải nội dung trên Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/vi_badge_web_generic.png' style={{ borderRadius: '13px', width: '200px', height: '83px' }} />
-                                </a>
-                            </div>
-                        </div>
                     </div>
                 </div>
 

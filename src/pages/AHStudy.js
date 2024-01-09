@@ -39,6 +39,26 @@ class AHStudy extends Component {
 
                 {/* PHẦN Body */}
                 <div classNameName="body">
+                    {/* Download Part */}
+                    <div className="downloadPart text-center" id="download">
+                        <div className="text-center text-lg-start">
+                            <h2>Tải App AH Study Ngay</h2>
+                        </div>
+
+                        <div className="downloadChoice row">
+                            <div className="iOSPart">
+                                <a href="https://apps.apple.com/vn/app/ah-study/id6474718633" type="button" target={'_blank'} rel="noreferrer">
+                                    <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/vi-vn?size=250x83&amp;releaseDate=1703462400" alt="Download on the App Store" style={{ borderRadius: '13px', width: '195px', height: '83px' }} />
+                                </a>
+                            </div>
+                            <div className="AndroidPart">
+                                <a href='https://play.google.com/store/apps/details?id=com.quochuyph207.AppKhoaHocKyThuat' target={'_blank'} rel="noreferrer">
+                                    <img alt='Tải nội dung trên Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/vi_badge_web_generic.png' style={{ borderRadius: '13px', width: '200px', height: '83px' }} />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr></hr>
                     {/* Introduce */}
                     <div className="introduceAhstudy">
                         <div className="contentPart1" id="introduce">
@@ -78,26 +98,6 @@ class AHStudy extends Component {
                             <div className="content2">
                                 <h2 className="contentTitle">Dịch Thuật</h2>
                                 <p className="contentText">Các bạn học sinh có thể dùng cho việc dịch câu, hoặc từ theo ý muốn, cực kì nhanh chóng và chính xác.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* Download Part */}
-                    <div className="downloadPart text-center" id="download">
-                        <div className="text-center text-lg-start">
-                            <h2>Tải App Ngay</h2>
-                        </div>
-
-                        <div className="downloadChoice row">
-                            <div className="iOSPart">
-                                <a href="https://apps.apple.com/vn/app/ah-study/id6474718633" type="button" target={'_blank'} rel="noreferrer">
-                                    <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/vi-vn?size=250x83&amp;releaseDate=1703462400" alt="Download on the App Store" style={{ borderRadius: '13px', width: '195px', height: '83px' }} />
-                                </a>
-                            </div>
-                            <div className="AndroidPart">
-                                <a href='https://play.google.com/store/apps/details?id=com.quochuyph207.AppKhoaHocKyThuat' target={'_blank'} rel="noreferrer">
-                                    <img alt='Tải nội dung trên Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/vi_badge_web_generic.png' style={{ borderRadius: '13px', width: '200px', height: '83px' }} />
-                                </a>
                             </div>
                         </div>
                     </div>

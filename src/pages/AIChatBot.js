@@ -129,59 +129,62 @@ function AIChatBot() {
 
             {/* PHẦN Footer */}
             <footer className="footer_area section_padding_130_0">
-                <div className="container">
-                    <div className="row">
-                        {/* <!-- Single Widget--> */}
-                        <div className="col-12 col-sm-6 col-lg-4">
-                            <div className="single-footer-widget section_padding_0_130">
-                                {/* <!-- Footer Logo--> */}
-                                <div className="footer-logo mb-3"></div>
-                                <p>Phát Triển Năng Lực Số</p>
-                                {/* <!-- Copywrite Text--> */}
-                                <div className="copywrite-text mb-5">
-                                    <p className="mb-0">Made with <i class="fa-solid fa-heart"></i> by<a className="ml-1" href="https://www.facebook.com/quoc.huy.tran.2007/" target='_blank'>Quoc Huy</a></p>
-                                </div>
-                                {/* <!-- Footer Social Area--> */}
-                                <div className="footer_social_area">
-                                    <a href="https://www.youtube.com/@phattriennanglucso" data-toggle="tooltip" data-placement="top" title="" data-original-title="Youtube" target='_blank'>
-                                        <i className="fa-brands fa-youtube"></i>
-                                    </a>
-                                    <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Tiktok" target='_blank'>
-                                        <i className="fa-brands fa-tiktok"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        {/* <!-- Single Widget--> */}
-                        <div className="col-12 col-sm-6 col-lg">
-                            <div className="single-footer-widget section_padding_0_130">
-                                {/* <!-- Widget Title--> */}
-                                <h5 className="widget-title">DỰ ÁN</h5>
-                                {/* <!-- Footer Menu--> */}
-                                <div className="footer_menu">
-                                    <ul>
-                                        <li><a href="/ahstudy">AH Study</a></li>
-                                        <li><a href="/ahstudychatbot">AH Study Chatbot</a></li>
-                                    </ul>
+                    <div className="container">
+                        <div className="row">
+                            {/* <!-- Single Widget--> */}
+                            <div className="col-12 col-sm-6 col-lg-4">
+                                <div className="single-footer-widget section_padding_0_130">
+                                    {/* <!-- Footer Logo--> */}
+                                    <div className="footer-logo mb-3"></div>
+                                    <p>Phát Triển Năng Lực Số</p>
+                                    {/* <!-- Copywrite Text--> */}
+                                    <div className="copywrite-text mb-5">
+                                        <p className="mb-0">Coded by<a className="ml-1" href="https://trhuy207.github.io/Bio-Page/" target={'_blank'} rel="noreferrer">Quoc Huy</a></p>
+                                    </div>
+                                    {/* <!-- Footer Social Area--> */}
+                                    <div className="footer_social_area">
+                                        <a href="https://www.facebook.com/phattriennanglucso" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook" target={'_blank'} rel="noreferrer">
+                                            <i class="fa-brands fa-facebook"></i>
+                                        </a>
+                                        <a href="https://www.youtube.com/@phattriennanglucso" data-toggle="tooltip" data-placement="top" title="" data-original-title="Youtube" target={'_blank'} rel="noreferrer">
+                                            <i className="fa-brands fa-youtube"></i>
+                                        </a>
+                                        <a href="https://www.tiktok.com/@phattriennanglucso" data-toggle="tooltip" data-placement="top" title="" data-original-title="Tiktok" target={'_blank'} rel="noreferrer">
+                                            <i className="fa-brands fa-tiktok"></i>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        {/* <!-- Single Widget--> */}
-                        <div className="col-12 col-sm-6 col-lg">
-                            <div className="single-footer-widget section_padding_0_130">
-                                {/* <!-- Widget Title--> */}
-                                <h5 className="widget-title">KẾT NỐI</h5>
-                                {/* <!-- Footer Menu--> */}
-                                <div className="footer_menu">
-                                    <ul>
-                                        <li><a href="mailto:quochuyphbrvt@gmail.com">Gửi Email cho chúng tôi</a></li>
-                                    </ul>
+                            {/* <!-- Single Widget--> */}
+                            <div className="col-12 col-sm-6 col-lg">
+                                <div className="single-footer-widget section_padding_0_130">
+                                    {/* <!-- Widget Title--> */}
+                                    <h5 className="widget-title">DỰ ÁN</h5>
+                                    {/* <!-- Footer Menu--> */}
+                                    <div className="footer_menu">
+                                        <ul>
+                                            <li><a href="/ahstudy">AH Study</a></li>
+                                            <li><a href="/ahstudychatbot">AH Study Chatbot</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* <!-- Single Widget--> */}
+                            <div className="col-12 col-sm-6 col-lg">
+                                <div className="single-footer-widget section_padding_0_130">
+                                    {/* <!-- Widget Title--> */}
+                                    <h5 className="widget-title">KẾT NỐI</h5>
+                                    {/* <!-- Footer Menu--> */}
+                                    <div className="footer_menu">
+                                        <ul>
+                                            <li><a href="mailto:quochuyphbrvt@gmail.com">Gửi Email cho chúng tôi</a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </footer>
+                </footer>
         </>
     )
 }

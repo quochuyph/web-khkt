@@ -42,7 +42,8 @@ class AHStudyChatbot extends Component {
                     {/* Download Part */}
                     <div className="downloadPart text-center" id="download">
                         <div className="text-center text-lg-start">
-                            <h2>Tải App AH Study Chatbot Ngay</h2>
+                            <h2 className='downloadTitle'>Tải App AH Study Chatbot Ngay</h2>
+                            <img src={require('../assets/images/icon/ahstudychatbot.png')} style={{borderRadius: '10px', maxWidth: '200px'}} />
                         </div>
 
                         <div className="downloadChoice row">

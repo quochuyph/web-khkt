@@ -42,7 +42,8 @@ class AHStudy extends Component {
                     {/* Download Part */}
                     <div className="downloadPart text-center" id="download">
                         <div className="text-center text-lg-start">
-                            <h2>Tải App AH Study Ngay</h2>
+                            <h2 className='downloadTitle'>Tải App AH Study Ngay</h2>
+                            <img src={require('../assets/images/icon/ahstudy.png')} style={{borderRadius: '10px', maxWidth: '200px'}} />
                         </div>
 
                         <div className="downloadChoice row">
@@ -63,7 +64,7 @@ class AHStudy extends Component {
                     <div className="introduceAhstudy">
                         <div className="contentPart1" id="introduce">
                             <div className="content1">
-                                <h2 className="contentTitle1">Cải Thiện Hiệu Suất Học Tập</h2>
+                                <h3 className="contentTitle1">Cải Thiện Hiệu Suất Học Tập</h3>
                                 <p className="contentText1">AH Study giúp học sinh cải thiện thời gian học trên lớp bằng cách tổng hợp kiến thức của 4 môn Toán, Lý, Hoá, Anh dễ dàng tìm kiếm kiến thức trong quá trình học tập và cải thiện trải nghiệm học tập của mình.</p>
                             </div>
                             <div className="image1">
@@ -76,14 +77,14 @@ class AHStudy extends Component {
                                 <img src={require('../assets/images/ahstudy/tkb.png')} style={{ maxWidth: '300px', maxHeight: '100%' }} alt="" />
                             </div>
                             <div className="content2">
-                                <h2 className="contentTitle">Thời Khóa Biểu</h2>
+                                <h3 className="contentTitle">Thời Khóa Biểu</h3>
                                 <p className="contentText">Giúp tạo thời khóa biểu dành cho các bạn học sinh lên lịch và theo dõi thời gian học tập một cách nhanh chóng. Tạo thời khóa biểu nhanh chóng, chi tiết theo từng ngày trong tuần. Giao diện thời khoá biểu đơn giản dễ sử dụng. Dễ dàng quản lý tất cả các thời gian học tập trong tuần.</p>
                             </div>
                         </div>
 
                         <div className="contentPart1">
                             <div className="content1">
-                                <h2 className="contentTitle1">Đa dạng kiến thức</h2>
+                                <h3 className="contentTitle1">Đa dạng kiến thức</h3>
                                 <p className="contentText1">Giúp việc học của bạn trở nên dễ dàng hơn bao giờ hết. Tìm kiếm công thức giờ đây chỉ gói gọn trong 1 ứng dụng không cần phải tìm kiếm nhiều nơi.</p>
                             </div>
                             <div className="image1">
@@ -96,7 +97,7 @@ class AHStudy extends Component {
                                 <img src={require('../assets/images/ahstudy/translate.png')} style={{ maxWidth: '300px', maxHeight: '100%' }} alt="" />
                             </div>
                             <div className="content2">
-                                <h2 className="contentTitle">Dịch Thuật</h2>
+                                <h3 className="contentTitle">Dịch Thuật</h3>
                                 <p className="contentText">Các bạn học sinh có thể dùng cho việc dịch câu, hoặc từ theo ý muốn, cực kì nhanh chóng và chính xác.</p>
                             </div>
                         </div>

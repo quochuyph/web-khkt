@@ -6,6 +6,7 @@ import DownloadApk from './pages/DownloadApk'
 import AHStudy from './pages/AHStudy';
 import AHStudyChatbot from './pages/AHStudyChatbot';  
 import AIChatBot from './pages/AIChatBot';
+import TongQuan from './pages/TongQuan';
 
 import CommingSoon from './CommingSoon';
 
@@ -39,11 +40,15 @@ const router = createBrowserRouter([
     path: "/commingsoon",
     element: <CommingSoon />,
   },
+  {
+    path: "/tong-quan",
+    element: <TongQuan />,
+  },
 ]);
 
 function App() {
   return (
-    <div className="container">
+    <div className="">
       <RouterProvider router={router} />
     </div>
   );

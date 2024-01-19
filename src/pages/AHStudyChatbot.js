@@ -6,8 +6,8 @@ class AHStudyChatbot extends Component {
             <>
                 {/* PHẦN Header */}
                 <header>
-                    <div className="container">
-                        <nav className="navbar sticky-top navbar-expand-lg navbar-light">
+                    <div className="">
+                        <nav className="navbar sticky-top navbar-expand-lg navbar-light shadow p-3 mb-5 bg-white rounded">
                             <a className="navbar-brand" href='/'>
                                 Phát Triển Năng Lực Số
                             </a>
@@ -23,6 +23,9 @@ class AHStudyChatbot extends Component {
                                         <a className="nav-link" href="/">Trang Chủ <span className="sr-only">(current)</span></a>
                                     </li>
                                     <li className="nav-item active">
+                                        <a className="nav-link" href="/tong-quan">Tổng Quan</a>
+                                    </li>
+                                    <li className="nav-item active">
                                         <a className="nav-link" href="#introduce">Giới Thiệu</a>
                                     </li>
                                     <li className="nav-item active">
@@ -30,6 +33,9 @@ class AHStudyChatbot extends Component {
                                     </li>
                                     <li className="nav-item active">
                                         <a className="nav-link" href="/ahstudy">AH Study</a>
+                                    </li>
+                                    <li className="nav-item active">
+                                        <a className="nav-link" href="https://phattriennanglucso.com/so-tay-dien-tu/01.pdf" rel="noreferrer" target={'_blank'}>Sổ Tay Điện Tử</a>
                                     </li>
                                 </ul>
                             </div>
@@ -130,6 +136,20 @@ class AHStudyChatbot extends Component {
                                         <ul>
                                             <li><a href="/ahstudy">AH Study</a></li>
                                             <li><a href="/ahstudychatbot">AH Study Chatbot</a></li>
+                                            <li><a href="https://phattriennanglucso.com/so-tay-dien-tu/01.pdf" rel="noreferrer" target={'_blank'}>Sổ Tay Điện Tử</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* <!-- Single Widget--> */}
+                            <div class="col-12 col-sm-6 col-lg">
+                                <div class="single-footer-widget section_padding_0_130">
+                                    {/* <!-- Widget Title--> */}
+                                    <h5 class="widget-title">GIỚI THIỆU</h5>
+                                    {/* <!-- Footer Menu--> */}
+                                    <div class="footer_menu">
+                                        <ul>
+                                            <li><a href="/tong-quan">Tổng Quan</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -138,7 +158,7 @@ class AHStudyChatbot extends Component {
                             <div className="col-12 col-sm-6 col-lg">
                                 <div className="single-footer-widget section_padding_0_130">
                                     {/* <!-- Widget Title--> */}
-                                    <h5 className="widget-title">KẾT NỐI</h5>
+                                    <h5 className="widget-title">HỖ TRỢ</h5>
                                     {/* <!-- Footer Menu--> */}
                                     <div className="footer_menu">
                                         <ul>

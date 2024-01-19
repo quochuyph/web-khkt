@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500&display=swap');
 
 .container {
   flex: 1;
@@ -24,7 +26,6 @@
 .downloadTitle {
   text-align: center;
   font-family: 'Alfa Slab One', serif;
-  font-weight: 400;
   color:#5271ff;
 }
 
@@ -36,8 +37,35 @@
   max-width: 200px;
 }
 
-.downloadChoice {
-  
+.bodyHeader {
+  margin-top: 20px;
+}
+
+.bodyHeaderText {
+  text-align: center;
+  font-family: 'Alfa Slab One', serif;
+  font-weight: 400;
+  color:#5271ff;
+}
+
+.TongQuan {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contentBody {
+  max-width: 70%;
+}
+
+.content {
+  margin: 20px 0px 30px 0px;
+}
+
+.contentTextTQ {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
 }
 
 .ahstudy {
@@ -104,12 +132,14 @@
 
 .introduce {
   display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 15px
+}
+
+.AI-Chatbot {
+  max-width: 1000px;
 }
 
 nav {
@@ -154,6 +184,11 @@ nav {
   font-family: 'Comfortaa', sans-serif;
   font-weight: bold;
   color:#007bff;
+}
+
+.contentHeaderText {
+  font-family: 'Noto Sans SC', sans-serif;
+  font-weight: 500;
 }
 
 .contentTitle1 {

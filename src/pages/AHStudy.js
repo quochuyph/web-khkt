@@ -7,7 +7,7 @@ class AHStudy extends Component {
                 {/* PHẦN Header */}
                 <header>
                     <div className="">
-                        <nav className="navbar sticky-top navbar-expand-lg navbar-light shadow p-3 mb-5 bg-white rounded">
+                        <nav className="navbar sticky-top navbar-expand-lg navbar-light shadow p-3 bg-white rounded">
                             <a className="navbar-brand" href='/'>
                                 Phát Triển Năng Lực Số
                             </a>

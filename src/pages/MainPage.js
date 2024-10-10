@@ -48,10 +48,10 @@ class MainPage extends Component {
                         <div className='ahstudy'>
                             <div className="downloadChoice row">
                                 <div className="iOSPart">
-                                    {/* <a href="https://apps.apple.com/vn/app/ah-study/id6474718633" type="button" target={'_blank'} rel="noreferrer">
+                                    <a href="https://apps.apple.com/vn/app/ah-study/id6474718633" type="button" target={'_blank'} rel="noreferrer">
                                         <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/vi-vn?size=250x83&amp;releaseDate=1703462400" alt="Download on the App Store" style={{borderRadius: '13px', width: '195px', height: '83px'}} />
-                                    </a> */}
-                                    <a 
+                                    </a>
+                                    {/* <a 
                                         type="button" 
                                         onClick={() => Swal.fire({
                                             title: "Thông Báo!",
@@ -60,7 +60,7 @@ class MainPage extends Component {
                                         })} 
                                     >
                                         <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/vi-vn?size=250x83&amp;releaseDate=1703462400" alt="Download on the App Store" style={{ borderRadius: '13px', width: '195px', height: '83px' }} />
-                                    </a>
+                                    </a> */}
                                 </div>
                                 <div className="AndroidPart">
                                     <a href='https://play.google.com/store/apps/details?id=com.quochuyph207.AppKhoaHocKyThuat' target={'_blank'} rel="noreferrer">

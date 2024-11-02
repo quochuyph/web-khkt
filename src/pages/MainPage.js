@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Swal from 'sweetalert2'
 
+import banner from '../assets/images/banner.png'
+
 class MainPage extends Component {
     render() {
         return (
@@ -43,6 +45,11 @@ class MainPage extends Component {
 
                 {/* PHẦN Body */}
                 <div className="body">
+                    {/* Section Banner */}
+                    <section className=''>
+                        <img className='bannerImage' src={banner} />
+                    </section>
+                    
                     {/* Introduce */}
                     <div className='introduce' id='introduce'>
                         <div className='ahstudy'>

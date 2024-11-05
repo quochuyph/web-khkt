@@ -138,7 +138,7 @@ class MainPage extends Component {
                                     <p>Phát Triển Năng Lực Số</p>
                                     {/* <!-- Copywrite Text--> */}
                                     <div className="copywrite-text mb-5">
-                                        <p className="mb-0">Coded by<a className="ml-1" href="https://trhuy207.github.io/Bio-Page/" target={'_blank'} rel="noreferrer">Quoc Huy</a></p>
+                                        <p className="mb-0">Coded by<a className="ml-1" href="https://quochuyph.id.vn/" target={'_blank'} rel="noreferrer">Quoc Huy</a></p>
                                     </div>
                                     {/* <!-- Footer Social Area--> */}
                                     <div className="footer_social_area">
